@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <div class="wrapper__content">
     <div class="title">
       <h1>Weather App</h1>
       <span>
@@ -35,6 +36,7 @@
         <p>{{ showMaxTemp }}</p>
         <p>{{ showHumidity }}</p>
       </div>
+    </div>
     </div>
   </div>
 </template>
@@ -94,11 +96,10 @@ export default {
   padding: 20px;
   margin: auto;
   background: #525252;
-  // background-image: url('./assets/BG.jpg');
-  // background-size: cover;
-  width: 400px;
-  height: 500px;
+  width: 370px;
+  height: 400px;
   border-radius: 50px;
+  opacity: 0.9;
 
   @media only screen and (min-width: 768px) {
     width: 600px;

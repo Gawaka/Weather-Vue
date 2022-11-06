@@ -8,7 +8,9 @@ body {
     min-width: 425px;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(96,214,255,1) 25%, rgba(215,114,242,1) 87%);
+    /* background: linear-gradient(90deg, rgba(96,214,255,1) 25%, rgba(215,114,242,1) 87%); */
+    background-image: url("@/assets/bg.jpg");
+    background-size: cover;
     color: wheat;
     display: flex;
     justify-content: center;

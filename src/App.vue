@@ -96,17 +96,17 @@ export default {
   padding: 20px;
   margin: auto;
   background: #525252;
-  width: 370px;
+  width: 350px;
   height: 400px;
   border-radius: 50px;
   opacity: 0.9;
 
   @media only screen and (min-width: 768px) {
-    width: 600px;
+    width: 500px;
   }
 
   @media only screen and (min-width: 1024px) {
-    width: 900px;
+    width: 600px;
   }
 }
 

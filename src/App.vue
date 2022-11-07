@@ -24,7 +24,7 @@
         disabled
         v-else
       >
-        Сhoose your city
+        Сhoose city
       </my-button>
     </div>
     <p class="error">{{ error }}</p>
